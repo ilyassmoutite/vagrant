@@ -99,12 +99,7 @@ config.vm.define "apptest" do |apptest|
     apptest.vm.hostname="apptest"
     apptest.vm.network "private_network", ip: "192.168.33.43"
   end
-
-config.vm.define "app2" do |app2|
-    app2.vm.box="centos/7"
-    app2.vm.hostname="app2"
-    app2.vm.network "private_network", ip: "192.168.33.42"
-  end
+ 
 config.vm.define "server3" do |server3|
     server3.vm.box="centos/7"
     server3.vm.hostname="server3"
